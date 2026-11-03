@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Belgrano&display=swap');
+body {
+    background-color: #eddae3;
+    color: #000000;
+    font-family: 'Belgrano', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    padding: 3rem 1rem 1.5rem 1rem;
+}
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000000;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description {
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+
+.description p {
+    color: #000000;
+}
+.table-container {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    max-width: 850px;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #cdd6ba;
+    border-radius: 16px;
+    overflow: hidden; 
+    border: 2px solid #b9c69e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+th {
+    background-color: #b9c69e;
+    color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 2px solid #eddae3;
+}
+td {
+    padding: 14px 16px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Belgrano', serif;
+    border-bottom: 1px solid #b9c69e;
+    border-right: 1px solid #b9c69e;
+}
+td:last-child, th:last-child {
+    border-right: none;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+tbody tr:nth-child(even) {
+    background-color: #d8e0c8;
+}
+.badge {
+    background-color: #b9c69e;
+    color: #000000;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+footer {
+    padding: 2rem 1rem;
+    color: #000000;
+    font-family: 'Belgrano', serif;
+    font-size: 0.9rem;
+}
